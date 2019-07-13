@@ -1,0 +1,102 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.navbar-brand{
+    color: hotpink !important;
+}
+.jumbotron {
+    background-image: linear-gradient(hotpink, white) !important;
+    color: white !important;
+}
+a.pagelink:link {
+    color: hotpink !important;
+}
+a.pagelink:hover {
+    text-decoration:underline !important;
+}
+a.pagelink:visited{
+    color: hotpink !important;
+}
+#limits {
+    color: white;
+}
+.sgsbutton {
+    border: 2px solid transparent;
+    background: hotpink;
+    color: #ECF0F1;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+    .sgsbutton:hover {
+        background-color: dimgray !important;
+        color: hotpink !important;
+        border: 2px solid dimgray !important;
+    }
+    .sgsbutton::selection {
+        background-color: dimgray !important;
+        color: hotpink !important;
+        border: 2px solid dimgray !important;
+    }
+    .sgsbutton:active {
+        background-color: dimgray !important;
+        color: hotpink !important;
+        border: 2px solid dimgray !important;
+    }
+    .sgsbutton:after {
+        background-color: dimgray !important;
+        color: hotpink !important;
+        border: 2px solid dimgray !important;
+    }
+    .sgsbutton:focus {
+        background-color: dimgray !important;
+        color: hotpink !important;
+        border: 2px solid dimgray !important;
+    }
